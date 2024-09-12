@@ -20,45 +20,25 @@
 .mid {
     text-align: center;
 }
+.b-w{
+    border: 1px solid white;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img.scs{
     width: 45%;
     height: 45%;
     align-content: center;
 }
 
-td:nth-child(1) {
-    background-color:lightgreen;
-}
-table.schedule {
-    border: 3px;
-    border-style:ridge;
-    border-color: black;
+.ez {
+    display: inline;
     padding: 20px;
-    background-color:rgb(199, 209, 140);
-    align-self: center;
-    margin: auto;
-    font-family:Arial;
 }
-td {
-    border: 1px solid white;
-    padding: 5px;
+ul.horiline {
     text-align: center;
-}
-th.bokya{
-    border: none;
-    border-bottom: 2px solid;
-    border-bottom-right-radius: 3px solid black;
-    text-align:center;
-}
-td.data{
-    border: 1px solid white;
-    background-color: aqua;
-}
-tr.days
-{
-    border-bottom: 2px solid black;
-}
-tr {
-    padding: -5px;
 }
 

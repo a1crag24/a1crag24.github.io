@@ -1,0 +1,36 @@
+td:nth-child(1) {
+    background-color:lightgreen;
+}
+table.schedule {
+    border: 3px;
+    border-style: ridge;
+    border-color: black;
+    background-color:rgb(199, 209, 140);
+    align-self: center;
+    margin: auto;
+    font-family: Arial;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    border:1px solid white;
+    padding: 10px;
+}
+th.bokya{
+    border: none;
+    border-bottom: 2px solid;
+    border-bottom-right-radius: 3px solid black;
+    text-align:center;
+}
+td.data{
+    border: 1px solid white;
+    background-color: aqua;
+}
+tr.days
+{
+    border-bottom: 2px solid black;
+}
