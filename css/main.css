@@ -23,25 +23,41 @@
 .b-w{
     border: 1px solid white;
 }
+.ez {
+    display: inline;
+    padding: 20px;
+}
+
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    background: url("../img/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1%;
 }
 
-#ragfooter {
-    font-family:'Times New Roman', Times, serif;
+p.title {
+    font-size:xx-large;
+    
 }
 
+header.links {
+    text-align: center;
+}
 img.scs{
     width: 45%;
     height: 45%;
     align-content: center;
 }
 
-.ez {
-    display: inline;
-    padding: 20px;
-}
 ul.horiline {
     text-align: center;
 }
@@ -49,8 +65,22 @@ ul.horiline {
 nav.mainlinks {
     border: 3px inset rgb(180, 67, 67);
     border-radius: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 0px;
 }
+a.spacing{
+    padding: 1%;
+}
 
+img.logo {
+    width: 50%;
+    height: 50%;
+}
+#ragfooter {
+    font-family:'Times New Roman', Times, serif;
+    border: 3px inset rgb(207, 147, 34);
+    border-radius: 10px;
+    margin: 2% 17% 0em 17%;
+    background: rgb(216, 154, 38);
+}
