@@ -6,7 +6,6 @@ table.schedule {
     border-style: ridge;
     border-color: black;
     background-color:rgb(199, 209, 140);
-    align-self: center;
     margin: auto;
     font-family: Arial;
     border-collapse: collapse;
@@ -33,4 +32,12 @@ td.data{
 tr.days
 {
     border-bottom: 2px solid black;
+}
+section.section-bg {
+    background-image: url("../img/nait-morning.jpg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    padding: 5%;
+    border-radius: 10px;
+    border: 7px groove gray;
 }

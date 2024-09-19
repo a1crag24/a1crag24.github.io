@@ -27,7 +27,9 @@
     display: inline;
     padding: 20px;
 }
-
+.links#content-page-header {
+    padding-bottom: 10%;
+}
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -70,10 +72,19 @@ nav.mainlinks {
     margin-right: 20%;
     padding: 0px;
 }
-a.spacing{
-    padding: 1%;
+header.links nav.mainlinks p a {
+    padding: .5%;
 }
 
+#content-page-header .mainlinks a {
+    display: inline-flex;
+    position: relative;
+}
+
+a.hidden {
+    text-decoration: none;
+    color: black;
+}
 img.logo {
     width: 50%;
     height: 50%;
@@ -84,4 +95,25 @@ img.logo {
     border-radius: 10px;
     margin: 2% 17% 0em 17%;
     background: rgb(216, 154, 38);
+}
+hr {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+div.header-left {
+    position: relative;
+    float:left;
+    border: 1px solid;
+}
+div.header-right {
+    position: relative;
+    float: right;
+}
+div.header-bottom {
+    position: fixed;
+    float:inline-end;
+}
+main {
+    position:static;
 }

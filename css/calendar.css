@@ -1,0 +1,29 @@
+table {
+    border: 3px inset;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(138, 76, 255, 1);
+    table-layout: fixed;
+    float: right;
+}
+td, th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+td:nth-child(1){
+    background-color: rgb(118, 66, 216);
+}
+td:nth-child(7){
+    background-color: rgb(118, 66, 216);
+}
+.days {
+    background-color: rgb(100, 56, 180);
+}
+
+#left-content {
+    float: left;
+}
+p {
+    text-wrap: wrap;
+}
