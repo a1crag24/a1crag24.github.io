@@ -52,7 +52,7 @@ p.title {
 }
 
 header.links {
-    text-align: center;
+    align-items: center;
 }
 img.scs{
     width: 45%;
@@ -102,17 +102,13 @@ hr {
 }
 
 div.header-left {
-    position: relative;
-    float:left;
     border: 1px solid;
 }
 div.header-right {
-    position: relative;
-    float: right;
+    border: 1px solid;
 }
 div.header-bottom {
-    position: fixed;
-    float:inline-end;
+    fill: aqua;
 }
 main {
     position:static;
